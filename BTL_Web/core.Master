@@ -1,0 +1,200 @@
+﻿<%@ Master Language="C#" EnableViewState="true" AutoEventWireup="true" CodeBehind="core.master.cs" Inherits="BTL_Web.core" %>
+
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>CTC Mobile</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/all.css">
+    <script src="js/script.js"></script>
+    <style>
+        /* Chrome, Safari, Edge, Opera */
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* Firefox */
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+    </style>
+
+
+</head>
+<body>
+    <form id="form1" autocomplete="off" runat="server">
+        <header class="header">
+            <div class="header-wrapper">
+                <div class="top-bar">
+                    <div class="wide">
+                        <div class="sale-coupon">
+                            <span>NHẬP MÃ VTL ĐỂ GIẢM 10%</span>
+                        </div>
+                        <div class="follow">
+                            <div class="follow-icon phone">
+                                <a href=""><i class="fas fa-phone"><span> 033.5167.431</span></i></a>
+                            </div>
+                            <div class="follow-icon">
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                            </div>
+                            <div class="follow-icon">
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                            <div class="follow-icon">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                            </div>
+                            <div class="follow-icon">
+                                <a href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-main">
+                    <div class="main-top wide">
+                       <img width="18%;" class="left-main" alt="" src="images/logo.png"  />
+                        <div class="search">
+                            <asp:Panel ID="searchPanel" runat="server" DefaultButton="ImageButton1">
+                                <input id="textbox1" runat="server" type="text" class="txtSearch" placeholder="Tìm kiếm sản phẩm...">
+                                <asp:ImageButton ID="ImageButton1" runat="server" OnClick="LinkButton4_Click" ImageUrl="images/search.png" CssClass="btnSearch fas fa-search" />
+                            </asp:Panel>
+                        </div>
+                        <div class="user-icon">
+                            <div id="idCart" runat="server" class="header-icon cart">
+                                <a id="linkCart" href="#" runat="server">
+                                    <i runat="server" class="fas fa-cart-shopping"></i>
+                                </a>
+                                <div class="dropdowncart" id="Div1" runat="server">
+                                    <div id="wrapCart" runat="server"></div>
+                                    <div id="mainCart" class="ddCart" runat="server">
+                                        <asp:ListView ID="lvCart" runat="server" OnItemDataBound="lvCart_ItemDataBound" OnItemCommand="lvCart_ItemCommand">
+                                            <ItemTemplate>
+                                                <div class="dropdowncart-item">
+                                                    <div>
+                                                        <img src="<%# Eval("sImg") %>" />
+                                                    </div>
+                                                    <div>
+                                                        <span><%# Eval("sTenSanPham") %></span>
+
+                                                        <div class="soluongmua-cart">
+                                                            <asp:Label ID="txtSL" runat="server" Text='<%# Eval("iSoluongmua") %>'></asp:Label>
+                                                            <span>x</span>
+                                                            <b style="display: flex;">
+                                                                <asp:Label ID="txtGia" runat="server" Text='<%# Eval("fGiamgia","{0:0,0}") %>'></asp:Label>
+                                                                <sup>đ</sup></b>
+                                                        </div>
+                                                    </div>
+                                                    <div class="cart-item-cancel">
+                                                        <asp:ImageButton ID="deleteBtn" ImageUrl="images/cancel.png" CommandArgument='<%# Eval("sID_CTGioHang") %>' CommandName="Delete" runat="server" />
+                                                    </div>
+                                                </div>
+                                            </ItemTemplate>
+                                        </asp:ListView>
+                                        <div class="tong-tien">
+                                            <asp:Label ID="totalCart" runat="server" Text="Label"></asp:Label>
+                                        </div>
+                                        <div class="nut-chuyen-huong">
+                                            <asp:Button ID="Button1" CssClass="btnRedirect" PostBackUrl="~/Giohang.aspx" runat="server" Text="XEM GIỎ HÀNG" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="header-icon login">
+                                <a href=""><i class="fas fa-user"></i></a>
+                                <div class="dropdown" id="login" runat="server">
+                                    <asp:Label Visible="false" ID="txtUser" runat="server" Text="Label"></asp:Label>
+                                    <div id="showlogin" runat="server"></div>
+                                    <asp:Button Visible="false" CssClass="wrap-logout" ID="btnOut" runat="server" Text="Đăng xuất" OnClick="btnOut_Click" />
+                                </div>
+                            </div>
+                            <div class="header-icon favorite"><a href=""><i class="fas fa-heart"></i></a></div>
+                        </div>
+                    </div>
+                    <div class="semi-top">
+                        <div class="menu wide">
+                            <ul>
+                                <li><a href="Trangchu.aspx">Trang chủ</a></li>
+                                <li><a>
+                                    <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Điện thoại</asp:LinkButton></a></li>
+                                <li><a>
+                                    <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click">Máy tính bảng</asp:LinkButton></a></li>
+                                <li><a>
+                                    <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click">Phụ kiện</asp:LinkButton></a></li>
+                                <li><a href="Danhgia.aspx">Đánh giá</a></li>
+                                <li><a href="Lienhe.aspx">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <footer>
+            <div class="row-1">
+                <div class="col-1">
+                    <div class="main-title">
+                        <h3>THỜI GIAN MỞ CỬA</h3>
+                        <div class="divider-small"></div>
+                    </div>
+                    <div class="content-title">
+                        <ul>
+                            <li>Thứ 2 - Thứ 6: 8h-19h</li>
+                            <li>Thứ 7 - Chủ Nhật: 7h-20h</li>
+                            <li>Phục vụ cả những ngày lễ tết</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="main-title">
+                        <h3>ĐIỀU KHOẢN</h3>
+                        <div class="divider-small"></div>
+                    </div>
+                    <div class="content-title">
+                        <ul>
+                            <li>Bảo mật</li>
+                            <li>Khuyến Mãi</li>
+                            <li>Mua hàng</li>
+                            <li>Thông tin người dùng</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="main-title">
+                        <h3>GIỚI THIỆU</h3>
+                        <div class="divider-small"></div>
+                    </div>
+                    <div class="content-title">
+                        <ul>
+                            <li>Địa Chỉ: 96 Định Công</li>
+                            <li>Telephone: +18001008</li>
+                            <li>Mail: 1108@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-end">
+                <div class="end">
+                    <div class="info">
+                        <h4>CTC Mobile</h4>
+                        <span>Sản phẩm được thiết kế để làm bài tập lớn môn Lập trình Web nâng cao bởi các sinh viên lớp 1810A05</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </form>
+
+
+</body>
+</html>

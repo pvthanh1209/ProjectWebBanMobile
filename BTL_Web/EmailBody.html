@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <div style="border-bottom: 1px solid #ccc; padding-bottom: 60px;">
+        <div style="width: 650px; margin:0 auto;">
+            <table width="650px">
+                <tr>
+                    <td style="text-align: left; vertical-align: middle; display: block;"><h1>CTC MOBILE</h1></td>
+                    <td style="text-align: right; vertical-align: middle; font-size: 18px; color: #999999;">Đơn hàng {idDonHang}</td>
+                </tr>
+            </table>
+            <div>
+                <p style="font-size: 23px; font-weight: 500;">Cảm ơn bạn đã mua hàng!</p>
+                <p style="color: #999999; font-size: 18px;">Xin chào {Username}, Chúng tôi đã nhận được đơn đặt hàng của bạn. Chúng tôi sẽ thông báo sau khi nhân viên xác nhận đơn hàng của bạn.</p>
+            </div>
+            <table width="430px" style="margin-top: 50px;">
+                <tr>
+                    <td style="text-align: left; vertical-align: middle; display: block;"><a href="http://localhost:58325/Chitiethoadon.aspx?idhd={idDonHang}" style="text-decoration: none; font-size: 17px; padding: 20px 25px; background-color: #1666A2; border-radius: 5px; color: white;">Xem đơn hàng</a></td>
+                    <td style="text-align: center; font-size:14px; color: #999999;">hoặc</td>
+                    <td style="text-align: right; vertical-align: middle; font-size: 18px; color: #999999;"><a style="text-decoration: none; color: #1666A2;" href="http://localhost:58325/Trangchu.aspx">Đến cửa hàng của chúng tôi</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div style="border-bottom: 1px solid #ccc; padding-bottom: 40px;">
+        <div style="width: 650px; margin:0 auto; padding-top: 50px; border-bottom: 3px solid #E5E5E5;">
+            <span style="font-size: 25px;">Thông tin đơn hàng</span>
+            <table width="650px;" style="margin-top: 20px;">
+                {ListOrder}
+            </table>
+        </div>
+        <div style="width: 650px; margin:0 auto;">
+            <table style="margin: 0 auto; margin-top: 20px;">
+                <tr style="display: block; padding-bottom: 10px;">
+                    <td width="150px;" style="text-align: left; vertical-align: middle; color: #555555; font-size: 17px;">Tổng giá trị sản phẩm</td>
+                    <td width="150px" style="text-align: right; vertical-align: top; font-size: 18px; color: #555555;font-weight: 600;">{TotalProduct}</td>
+                </tr>
+                <tr style="display: block; padding-bottom: 10px; border-bottom: 3px solid #e5e5e5;">
+                    <td width="150px;" style="text-align: left; vertical-align: middle; color: #555555; font-size: 17px;">Phí vận chuyển</td>
+                    <td width="150px" style="text-align: right; vertical-align: top; font-size: 18px; color: #555555;font-weight: 600;">20,000đ</td>
+                </tr>
+                <tr style="display: block; padding-top: 20px;">
+                    <td width="150px;" style="text-align: left; vertical-align: middle; color: #555555; font-size: 17px;">Tổng cộng:</td>
+                    <td width="150px" style="text-align: right; vertical-align: top; font-size: 24px; color: #555555;font-weight: 600;">{TotalOrder}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div style="border-bottom: 1px solid #ccc; padding-bottom: 30px;">
+        <div style="width: 650px; margin:0 auto; padding-top: 50px;">
+            <span style="font-size: 25px;">Thông tin khách hàng</span>
+            <table width="650px;" style="margin-top: 20px;">
+                <tr style="display: block; padding-bottom: 10px;">
+                    <td style="text-align: left; vertical-align: top; color: #555555; font-size: 18px; font-weight: 600;">Họ và tên: </td>
+                    <td style="text-align: left; vertical-align: top; font-size: 18px; color: #555555;">{Username}</td>
+                </tr>
+                <tr style="display: block; padding-bottom: 10px;">
+                    <td style="text-align: left; vertical-align: top; color: #555555; font-size: 18px; font-weight: 600;">Số điện thoại: </td>
+                    <td style="text-align: left; vertical-align: top; font-size: 18px; color: #555555;">{Phone}</td>
+                </tr>
+                <tr style="display: block; padding-bottom: 10px;">
+                    <td style="text-align: left; vertical-align: top; color: #555555; font-size: 18px; font-weight: 600;">Địa chỉ giao hàng: </td>
+                    <td style="text-align: left; vertical-align: top; font-size: 18px; color: #555555;">{Address}</td>
+                </tr>
+                <tr style="display: block; padding-bottom: 10px;">
+                    <td style="text-align: left; vertical-align: top; color: #555555; font-size: 18px; font-weight: 600;">Phương thức thanh toán: </td>
+                    <td style="text-align: left; vertical-align: top; font-size: 18px; color: #555555;">{Ship}</td>
+                </tr>
+                <tr style="display: block; padding-bottom: 10px;">
+                    <td style="text-align: left; vertical-align: top; color: #555555; font-size: 18px; font-weight: 600;">Ghi chú: </td>
+                    <td style="text-align: left; vertical-align: top; font-size: 18px; color: #555555;">{Noti}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div style="margin-left: 21%;">
+        <div>Nếu bạn có bất cứ câu hỏi nào, đừng ngần ngại liên lạc với chúng tôi tại </div>
+        <a style="color:#1666a2">ctcmobile@gmail.com</a>
+    </div>
+</body>
+</html>

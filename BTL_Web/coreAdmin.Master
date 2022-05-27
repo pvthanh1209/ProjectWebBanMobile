@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="coreAdmin.master.cs" Inherits="BTL_Web.coreAdmin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/style-Admin.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="main_container">
+            <div class="header">
+                <div class="right_header">
+                    Welcome 
+                    <asp:Label ID="lblTenDangNhap" runat="server"></asp:Label>
+                    | <a href="Dangxuat.aspx" class="logout">Thoát</a>
+                </div>
+                <div id="clock_a"></div>
+            </div>
+
+            <div class="main_content">
+
+                <div class="menu">
+                    <ul>
+                        <li><a class="current" href="Admin.aspx">Trang Admin</a></li>
+                        <li><a href="Quanlyuser.aspx">Quản Lý User</a>
+
+                        </li>
+                        <li><a href="Quanlysanpham.aspx">Quản Lý Sản Phẩm</a>
+
+                        </li>
+                        <li><a href="Quanlyhoadon.aspx">Quản Lý Hóa Đơn</a>
+
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="center_content">
+
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+
+                </div>
+                <!--end of center content -->
+
+
+
+
+                <div class="clear"></div>
+            </div>
+            <!--end of main content-->
+
+
+            <div class="footer">
+                <p>@ADMIN | Design By Sinh Viên HOU </p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

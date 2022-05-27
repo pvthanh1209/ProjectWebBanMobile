@@ -1,0 +1,76 @@
+c:\users\dell\documents\visual studio 2015\Projects\BTL_Web\BTL_Web\bin\BTL_Web.dll.config
+c:\users\dell\documents\visual studio 2015\Projects\BTL_Web\BTL_Web\bin\BTL_Web.dll
+c:\users\dell\documents\visual studio 2015\Projects\BTL_Web\BTL_Web\bin\BTL_Web.pdb
+c:\users\dell\documents\visual studio 2015\Projects\BTL_Web\BTL_Web\obj\Debug\BTL_Web.dll
+c:\users\dell\documents\visual studio 2015\Projects\BTL_Web\BTL_Web\obj\Debug\BTL_Web.pdb
+C:\Users\DELL\documents\visual studio 2015\Projects\BTL_Web\BTL_Web\obj\Debug\BTL_Web.csprojResolveAssemblyReference.cache
+C:\Users\Admin\OneDrive\Desktop\btl1\BTL_Web\BTL_Web\bin\BTL_Web.dll.config
+C:\Users\Admin\OneDrive\Desktop\btl1\BTL_Web\BTL_Web\bin\BTL_Web.dll
+C:\Users\Admin\OneDrive\Desktop\btl1\BTL_Web\BTL_Web\bin\BTL_Web.pdb
+C:\Users\Admin\OneDrive\Desktop\btl1\BTL_Web\BTL_Web\obj\Debug\BTL_Web.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive\Desktop\btl1\BTL_Web\BTL_Web\obj\Debug\BTL_Web.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Desktop\btl1\BTL_Web\BTL_Web\obj\Debug\BTL_Web.dll
+C:\Users\Admin\OneDrive\Desktop\btl1\BTL_Web\BTL_Web\obj\Debug\BTL_Web.pdb
+C:\Users\DELL\Desktop\BTL_Web\BTL_Web\BTL_Web\bin\BTL_Web.dll.config
+C:\Users\DELL\Desktop\BTL_Web\BTL_Web\BTL_Web\bin\BTL_Web.dll
+C:\Users\DELL\Desktop\BTL_Web\BTL_Web\BTL_Web\bin\BTL_Web.pdb
+C:\Users\DELL\Desktop\BTL_Web\BTL_Web\BTL_Web\obj\Debug\BTL_Web.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\BTL_Web\BTL_Web\BTL_Web\obj\Debug\BTL_Web.dll
+C:\Users\DELL\Desktop\BTL_Web\BTL_Web\BTL_Web\obj\Debug\BTL_Web.pdb
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\web tối ưu\web\BTL_Web\BTL_Web\BTL_Web\bin\BTL_Web.dll.config
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\web tối ưu\web\BTL_Web\BTL_Web\BTL_Web\bin\BTL_Web.dll
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\web tối ưu\web\BTL_Web\BTL_Web\BTL_Web\bin\BTL_Web.pdb
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\web tối ưu\web\BTL_Web\BTL_Web\BTL_Web\obj\Debug\BTL_Web.csprojAssemblyReference.cache
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\web tối ưu\web\BTL_Web\BTL_Web\BTL_Web\obj\Debug\BTL_Web.csproj.CoreCompileInputs.cache
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\web tối ưu\web\BTL_Web\BTL_Web\BTL_Web\obj\Debug\BTL_Web.dll
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\web tối ưu\web\BTL_Web\BTL_Web\BTL_Web\obj\Debug\BTL_Web.pdb
+D:\Code\BTL_Web\BTL_Web\bin\BTL_Web.dll.config
+D:\Code\BTL_Web\BTL_Web\bin\BTL_Web.dll
+D:\Code\BTL_Web\BTL_Web\bin\BTL_Web.pdb
+D:\Code\BTL_Web\BTL_Web\obj\Debug\BTL_Web.csprojResolveAssemblyReference.cache
+D:\Code\BTL_Web\BTL_Web\obj\Debug\BTL_Web.dll
+D:\Code\BTL_Web\BTL_Web\obj\Debug\BTL_Web.pdb
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\web tối ưu đã fix\web\BTL_Web\BTL_Web\bin\BTL_Web.dll.config
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\web tối ưu đã fix\web\BTL_Web\BTL_Web\bin\BTL_Web.dll
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\web tối ưu đã fix\web\BTL_Web\BTL_Web\bin\BTL_Web.pdb
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\web tối ưu đã fix\web\BTL_Web\BTL_Web\obj\Debug\BTL_Web.csprojAssemblyReference.cache
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\web tối ưu đã fix\web\BTL_Web\BTL_Web\obj\Debug\BTL_Web.csproj.CoreCompileInputs.cache
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\web tối ưu đã fix\web\BTL_Web\BTL_Web\obj\Debug\BTL_Web.dll
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\web tối ưu đã fix\web\BTL_Web\BTL_Web\obj\Debug\BTL_Web.pdb
+C:\Users\DELL\Desktop\WebNC001\BTL_Web\BTL_Web\bin\BTL_Web.dll.config
+C:\Users\DELL\Desktop\WebNC001\BTL_Web\BTL_Web\bin\BTL_Web.dll
+C:\Users\DELL\Desktop\WebNC001\BTL_Web\BTL_Web\bin\BTL_Web.pdb
+C:\Users\DELL\Desktop\WebNC001\BTL_Web\BTL_Web\obj\Debug\BTL_Web.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\WebNC001\BTL_Web\BTL_Web\obj\Debug\BTL_Web.dll
+C:\Users\DELL\Desktop\WebNC001\BTL_Web\BTL_Web\obj\Debug\BTL_Web.pdb
+C:\Users\DELL\Desktop\WebNC001\BTL_Web\BTL_Web\bin\Newtonsoft.Json.dll
+C:\Users\DELL\Desktop\WebNC001\BTL_Web\BTL_Web\bin\Newtonsoft.Json.xml
+C:\Users\DELL\Desktop\WebNC001\BTL_Web\BTL_Web\bin\AjaxControlToolkit.dll
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\Web hoàn thành\WebNC001\BTL_Web\BTL_Web\obj\Debug\BTL_Web.csprojAssemblyReference.cache
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\Web hoàn thành\WebNC001\BTL_Web\BTL_Web\obj\Debug\BTL_Web.csproj.CoreCompileInputs.cache
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\Web hoàn thành\WebNC001\BTL_Web\BTL_Web\obj\Debug\BTL_Web.dll
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\Web hoàn thành\WebNC001\BTL_Web\BTL_Web\obj\Debug\BTL_Web.pdb
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\Web hoàn thành\WebNC001\BTL_Web\BTL_Web\bin\BTL_Web.dll.config
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\Web hoàn thành\WebNC001\BTL_Web\BTL_Web\bin\BTL_Web.dll
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\Web hoàn thành\WebNC001\BTL_Web\BTL_Web\bin\BTL_Web.pdb
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\Web hoàn thành\WebNC001\BTL_Web\BTL_Web\bin\Newtonsoft.Json.dll
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\Web hoàn thành\WebNC001\BTL_Web\BTL_Web\bin\Newtonsoft.Json.xml
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\Web hoàn thành\WebNC001\BTL_Web\BTL_Web\obj\Debug\BTL_Web.csproj.CopyComplete
+C:\Users\DELL\Desktop\web_oke_la\WebNC001\BTL_Web\BTL_Web\bin\BTL_Web.dll.config
+C:\Users\DELL\Desktop\web_oke_la\WebNC001\BTL_Web\BTL_Web\bin\BTL_Web.dll
+C:\Users\DELL\Desktop\web_oke_la\WebNC001\BTL_Web\BTL_Web\bin\BTL_Web.pdb
+C:\Users\DELL\Desktop\web_oke_la\WebNC001\BTL_Web\BTL_Web\bin\Newtonsoft.Json.dll
+C:\Users\DELL\Desktop\web_oke_la\WebNC001\BTL_Web\BTL_Web\bin\Newtonsoft.Json.xml
+C:\Users\DELL\Desktop\web_oke_la\WebNC001\BTL_Web\BTL_Web\obj\Debug\BTL_Web.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\web_oke_la\WebNC001\BTL_Web\BTL_Web\obj\Debug\BTL_Web.dll
+C:\Users\DELL\Desktop\web_oke_la\WebNC001\BTL_Web\BTL_Web\obj\Debug\BTL_Web.pdb
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\Web hoàn thành\web đi thi\BTL_Web\BTL_Web\bin\BTL_Web.dll.config
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\Web hoàn thành\web đi thi\BTL_Web\BTL_Web\bin\BTL_Web.dll
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\Web hoàn thành\web đi thi\BTL_Web\BTL_Web\bin\BTL_Web.pdb
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\Web hoàn thành\web đi thi\BTL_Web\BTL_Web\bin\Newtonsoft.Json.dll
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\Web hoàn thành\web đi thi\BTL_Web\BTL_Web\bin\Newtonsoft.Json.xml
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\Web hoàn thành\web đi thi\BTL_Web\BTL_Web\obj\Debug\BTL_Web.csprojAssemblyReference.cache
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\Web hoàn thành\web đi thi\BTL_Web\BTL_Web\obj\Debug\BTL_Web.csproj.CoreCompileInputs.cache
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\Web hoàn thành\web đi thi\BTL_Web\BTL_Web\obj\Debug\BTL_Web.csproj.CopyComplete
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\Web hoàn thành\web đi thi\BTL_Web\BTL_Web\obj\Debug\BTL_Web.dll
+E:\Công nghệ phần mềm\Lập trình web nâng cao\Clone web nc\Web hoàn thành\web đi thi\BTL_Web\BTL_Web\obj\Debug\BTL_Web.pdb
